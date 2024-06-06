@@ -43,8 +43,8 @@ import (
 	_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
 	// 高优先级自定义插件
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/custom"   // 自杀（bushi
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/delreply" // 回复撤回
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/custom"   // 自杀（bushi
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/delreply" // 回复撤回
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -151,8 +151,8 @@ import (
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
 
 	// personal
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moehu"      // 图库
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/mywife"     // 本地老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moehu"      // 图库
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/mywife"     // 本地老婆
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
