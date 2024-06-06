@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
@@ -16,12 +17,13 @@ import (
 	"github.com/wdvxdr1123/ZeroBot/utils/helper"
 
 	"github.com/FloatTech/floatbox/file"
+	"github.com/FloatTech/floatbox/process"
 	ctrl "github.com/FloatTech/zbpctrl"
 	"github.com/FloatTech/zbputils/control"
 )
 
 func init() {
-	engine := control.Register("mywife", &ctrl.Options[*zero.Ctx]{
+	engine := control.AutoRegister(&ctrl.Options[*zero.Ctx]{
 		DisableOnDefault:  false,
 		Brief:             "老婆",
 		Help:              "- 抽老婆[@xxx]\n- 添加wife[名字][图片]\n- 删除wife[名字]\n- [让 | 不让]所有人均可添加wife",
@@ -81,6 +83,7 @@ func init() {
 				}
 				err := file.DownloadTo(url, grpfolder+"/"+name)
 				if err == nil {
+					process.SleepAbout1sTo2s()
 					ctx.SendChain(message.Reply(ctx.Event.MessageID), message.Text("成功！"))
 				} else {
 					ctx.SendChain(message.Reply(ctx.Event.MessageID), message.Text("错误：", err.Error()))
