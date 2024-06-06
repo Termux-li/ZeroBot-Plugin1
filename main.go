@@ -181,7 +181,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat" // 打断复读
 
 	// personal
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antirecall" // 反撤回
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/antirecall" // 反撤回
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
