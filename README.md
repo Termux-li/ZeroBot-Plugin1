@@ -1537,12 +1537,12 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 ### 1. 使用稳定版/测试版 (推荐)
 
-可以前往[Release](https://github.com/FloatTech/ZeroBot-Plugin/releases)页面下载对应系统版本可执行文件，编译时开启了全部插件。您还可以选择 [gocqzbp](https://github.com/FloatTech/gocqzbp) 的 [Release](https://github.com/FloatTech/gocqzbp/releases) 或 [Package](https://github.com/FloatTech/gocqzbp/pkgs/container/gocqzbp)，它是 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 与本插件的合体。
+可以前往[Release](https://github.com/weigui404/ZeroBot-Plugin/releases)页面下载对应系统版本可执行文件，编译时开启了全部插件。您还可以选择 [gocqzbp](https://github.com/FloatTech/gocqzbp) 的 [Release](https://github.com/FloatTech/gocqzbp/releases) 或 [Package](https://github.com/FloatTech/gocqzbp/pkgs/container/gocqzbp)，它是 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 与本插件的合体。
 
 ### 2. 本地直接运行
 
 1. 下载安装最新 [Go](https://studygolang.com/dl) 环境
-2. 下载本项目[压缩包](https://github.com/FloatTech/ZeroBot-Plugin/archive/master.zip)，本地解压
+2. 下载本项目[压缩包](https://github.com/weigui404/ZeroBot-Plugin/archive/master.zip)，本地解压
 3. 编辑 main.go 文件，内容按需修改
 4. 运行 OneBot 框架
 5. `Windows`下双击 run.bat 文件，`Linux`下使用 run.sh 运行本插件
@@ -1565,7 +1565,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 2. clone 并进入本项目，下载所需包
 
 ```bash
-git clone --depth=1 https://github.com/FloatTech/ZeroBot-Plugin.git
+git clone --depth=1 https://github.com/weigui404/ZeroBot-Plugin.git
 cd ZeroBot-Plugin
 go version
 go env -w GOPROXY=https://goproxy.cn,direct
