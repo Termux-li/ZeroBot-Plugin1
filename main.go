@@ -151,8 +151,8 @@ import (
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
 
 	// personal
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moehu"      // 图库
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/mywife"     // 本地老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moehu"  // 图库
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/mywife" // 本地老婆
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
